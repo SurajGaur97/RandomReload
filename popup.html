@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Random Reload</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+
+<body class="bdy">
+    <div class="img">
+        <img src="images/randomReload-logo.png" width="30">
+    </div>
+    <div class="headH2">
+        <label>Random </label><label style="color: orange;">Reload</label>
+    </div>
+    <div style="text-align: center; margin-bottom: 10px;">
+        <label class="lbl" id="cnt">--</label>
+    </div>
+    <div style="text-align: center;">
+        <input type="number" id="txtMin" class="txt" placeholder="Min. (Sec.)">
+    </div>
+    <div style="text-align: center;">
+        <input type="number" id="txtMax" class="txt" placeholder="Max. (Sec.)">
+    </div>
+    <div style="text-align: center;">
+        <input type="button" class="btn" id="start" value="Start">
+        <input type="button" class="btn" id="stop" style="display: none;" value="Stop">
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
